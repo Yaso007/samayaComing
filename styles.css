@@ -57,3 +57,38 @@ body{
     margin-top: 70px;
     background-color:#028351;
 }
+@media (max-width:768px) {
+
+    .coming{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+        border-radius: 15px;
+        width: 450px;
+        margin-top: 70px;
+        background-color:#028351;
+    }
+    p{
+        text-align: center;
+    }
+    .heading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+        margin-top: 2%;
+        margin-bottom:0%;
+        height: 3rem;
+        font-size: large;
+    }
+    #bottomCenter{
+        font-size: small;
+    }
+    #first{
+        font-family: "Goudy Bookletter 1911", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+}
